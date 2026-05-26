@@ -1,13 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Roman Yosi | Artist</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roman Yosi - Artist Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #007bff;
+      flex-shrink: 0;
+    }
+    .name-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+    .verified-badge {
+      width: 22px;
+      height: 22px;
+      background-color: #1da1f2;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 0 4px rgba(29,161,242,0.7);
+    }
+    .username {
+      font-size: 1.1rem;
+      color: #555;
+      margin-top: 4px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+    .spotify-albums iframe,
+    .youtube-videos iframe {
+      width: 100%;
+      height: 80px;
+      border: none;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+    .youtube-videos iframe {
+      height: 180px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+<body>
 
-<body style="margin:0;background:#0b0b0f;color:white;text-align:center;font-family:Arial;">
+  <div class="profile-header">
+    <img
+      src="https://raw.githubusercontent.com/Roman-Yosi/Poto-roman-yosi/refs/heads/main/final-image%20(4).jpg"
+      alt="Roman Yosi"
+      class="profile-photo"
+    />
+    <div>
+      <div class="name-section">
+        Roman Yosi
+        <div class="verified-badge" title="Verified Artist">&#10003;</div>
+      </div>
+      <div class="username">@romanyosi</div>
+    </div>
+  </div>
 
-  <h1>Roman Yosi</h1>
-  <p>Official Artist Website</p>
+  <section>
+    <h2>Spotify Albums</h2>
+    <div class="spotify-albums">
+      <iframe src="https://open.spotify.com/embed/album/25tnjywGljkfFh4EqBgbGe?utm_source=generator" allow="encrypted-media" loading="lazy"></iframe>
+      <iframe src="https://open.spotify.com/embed/album/3xFuzd1avT6J97Mz2c5enw?utm_source=generator" allow="encrypted-media" loading="lazy"></iframe>
+      <iframe src="https://open.spotify.com/embed/album/4wiexhl0VKYTxckWHermGR?utm_source=generator" allow="encrypted-media" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>YouTube Videos</h2>
+    <div class="youtube-videos">
+      <iframe src="https://www.youtube.com/embed/Hy5bwq39nXM" allowfullscreen loading="lazy"></iframe>
+      <iframe src="https://www.youtube.com/embed/0TbketKyIkg" allowfullscreen loading="lazy"></iframe>
+      <iframe src="https://www.youtube.com/embed/YKnwyyCWgQg" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>Social Media</h2>
+    <div class="social-links">
+      <a href="https://open.spotify.com/artist/3j2wzsjuf9JcBgRZxP44dJ?si=GKC7UB_-SB-qttoCtX6zQA" target="_blank" rel="noopener noreferrer">Spotify</a>
+      <a href="https://www.tiktok.com/@romanyosi?_r=1&_t=ZS-96fkf90U13Q" target="_blank" rel="noopener noreferrer">TikTok @romanyosi</a>
+      <a href="https://www.tiktok.com/@kromantv?_r=1&_t=ZS-96fklqeLZ9r" target="_blank" rel="noopener noreferrer">TikTok @kromantv</a>
+      <a href="https://youtube.com/@romanyosi?si=aSDFRHSDZeJWeEOW" target="_blank" rel="noopener noreferrer">YouTube @romanyosi</a>
+      <a href="https://youtube.com/@kromantv?si=pNYkYRRLqG10DjRs" target="_blank" rel="noopener noreferrer">YouTube @kromantv</a>
+      <a href="https://www.instagram.com/roman.yosi?igsh=MTF0eWQwamhobTN0Yw==" target="_blank" rel="noopener noreferrer">Instagram @roman.yosi</a>
+      <a href="https://www.instagram.com/kromantv1?igsh=MXd4eGQwM3h4dXVpaQ==" target="_blank" rel="noopener noreferrer">Instagram @kromantv1</a>
+    </div>
+  </section>
 
 </body>
 </html>
